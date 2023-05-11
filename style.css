@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(245, 212, 165, 1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+.cabecalho-imagem{
+    border-radius: 180px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+
+}
+
+.menu-item {
+    /* font-family: 'EB Garamond', serif; */
+    font-family: 'Righteous', cursive;
+    color: #9b36979a;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+   
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    /* linha */
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    /* coluna */
+    gap: 32px;
+    /* espaço entre os elementos */
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    /* peso da fonte */
+    font-size: 64px;
+    color: #fff2e7;
+}
+.conteudo-principal-imagem{
+    border-radius: 20px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #b30e8f;
+}
+
+#conteudo-principal-escrito-botao{
+    background-color: #ebcdeb;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px rgba(0, 0,0, 0.25);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+}
+#conteudo-principal-escrito-botao:hover{
+    background-color:  #e68bd2;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #b30e8f;
+    margin-bottom: 16px;
+
+}
+.conteudo-secundario-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(100, 9, 100);
+
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+.rodape-imagem{
+    height: 150px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+
+}
